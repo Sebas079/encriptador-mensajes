@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Encriptador de mensajes</title>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+
+
+
+        <section class="logo">
+            <img src="img/Logo.svg" atl="logo-alura" />
+        </section>
+        <section class="encriptador">
+            <form action="">
+        
+                <input class="mensajeUsuario" type="text" name="mensajeUsuario" pattern="a-z" id="mensajeUsuario" placeholder="Ingrese su texto aqui"/>
+                <h1>Encriptador de mensajes</h1>
+                <h4>
+                    <img class="advertencia" src="img/Vector.svg" alt="advertencia"/>
+                    Solo letras en minusculas y sin acento
+                </h4>
+                <input class="salidaMensaje" type="text" name="mensajeUsuario"  id="salidaMensaje" placeholder="Su texto encriptado"/>
+                <button type="submit"class="btn" id="btn-encriptar" onclick="encriptarMensaje()">Encriptar</button>
+                <button type="submit" class="btn" id="btn-desencriptar" onclick="desencriptarMansaje()">Desencriptar</button>
+              <!-- <input type="submit" class="btn" id="btn-copiar" value="Copiar" />-->
+
+            </form>
+        </section>
+       
+        <section class="muneco">
+            <img src="img/Muñeco.svg" alt="muneco-busca-mensajes" />
+        </section>
+
+
+    </main>
+    <footer>
+
+        <a href="https://github.com/Sebas079"> <img class="icon"
+                src="img/7857148_github_programming_code_hub_git_icon.svg"></a>
+        <h6>By Sebastian Lopez Lorenzo</h6>
+        <a href="https://www.linkedin.com/in/sebastian-lopez-lorenzo-17b62515/"> <img class="icon"
+                src="img/5279114_linkedin_network_social network_linkedin logo_icon.svg"></a>
+    </footer>
+</body>
+<script defer src="script.js"></script>
+
+</html>

@@ -1,0 +1,112 @@
+/*General*/
+/* General */
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/*Main*/
+header{
+    width: 10%;
+    height: 10%;
+    margin: 10%
+}
+main{
+    padding: 5%;
+    margin: 10%;
+    display: flex;
+    flex-direction:row;
+    width: 968px;
+    width: 800px;
+    box-shadow: rgb(6, 6, 118) 2px 25px 10px;
+
+ 
+}
+/*Section*/
+section.logo{
+    padding:  .5rem 1rem;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+section.encriptador{
+    position: relative;
+
+    
+
+}
+.mensajeUsuario,
+.salidaMensaje {
+    padding: 2rem;
+    border-radius: 10px;
+    width: 306px;
+    height: 166px;
+    
+
+}
+/*Botones*/
+.btn{
+    color: rgb(242, 9, 172);
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(8, 8, 118);
+    margin: .5rem;
+    padding: 0 ;  
+    position: relative;
+ 
+}
+.btn:hover{
+    background-color: rgb(14, 152, 162);
+    cursor: pointer;
+}
+/*advertencia*/
+.advertencia{
+    position: relative;
+    margin-top: 4rem;
+
+}
+/*titulos*/
+h1,
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: -2;
+
+}
+/*iconos*/
+.icon{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    width: 30px;
+    
+}
+.muneco{
+    margin-top: 15%;
+    position: relative;
+    width: 35%;
+    height: auto;
+
+
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    align-content: space-between ;
+}
