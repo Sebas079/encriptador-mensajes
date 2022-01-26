@@ -46,10 +46,11 @@ section.encriptador{
 }
 .mensajeUsuario,
 .salidaMensaje {
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
     width: 306px;
-    height: 166px;
+    height: auto;
+    margin: auto;
     
 
 }
